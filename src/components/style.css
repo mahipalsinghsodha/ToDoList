@@ -1,0 +1,173 @@
+/* styles.css */
+
+/* TodoList Container */
+.todo-list-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add Task Container */
+  .add-task-container {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .add-task-container input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .add-task-container button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-task-container button:hover {
+    background-color: #218838;
+  }
+  
+  /* TodoItem Container */
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* TodoItem Checkbox */
+  .todo-item-checkbox {
+    margin-right: 10px;
+  }
+  
+  /* TodoItem Details */
+  .todo-item-details {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* TodoItem Title */
+  .todo-item-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* TodoItem Status Dropdown */
+  .todo-item-status select {
+    padding: 5px;
+  }
+  
+  /* TodoItem Actions */
+  .todo-item-actions button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .todo-item-actions button:hover {
+    background-color: #c82333;
+  }
+
+  /* styles.css */
+
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+  }
+  
+ form label {
+    margin-bottom: 8px;
+  }
+  
+ form  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+ form  button {
+  margin-left: 21px;
+  width: 285px ;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Switch between Login and Register form */
+  form .switch-form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+ form .switch-form a {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  /* Additional Styles for Login and Register Pages */
+ form .login-container {
+    text-align: center;
+  }
+  
+ form .register-container {
+    text-align: center;
+  }
+  
+  /* Add more specific styles based on your design requirements */
+  
